@@ -1,0 +1,59 @@
+{
+  "info": {
+    "_postman_id": "23d39273-53fa-4189-87da-1018ede83f26",
+    "name": "Ecommerce API",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+    "_exporter_id": "57044908",
+    "_collection_link": "https://go.postman.co/collection/57044908-23d39273-53fa-4189-87da-1018ede83f26?source=collection_link"
+  },
+  "item": [
+    {
+      "name": "Get all product",
+      "request": {
+        "method": "GET",
+        "header": []
+      },
+      "response": []
+    },
+    {
+      "name": "Get Product By ID",
+      "request": {
+        "method": "GET",
+        "header": []
+      },
+      "response": []
+    },
+    {
+      "name": "Create Product",
+      "request": {
+        "method": "GET",
+        "header": []
+      },
+      "response": []
+    },
+    {
+      "name": "Get All Users",
+      "request": {
+        "method": "GET",
+        "header": []
+      },
+      "response": []
+    },
+    {
+      "name": "Create User",
+      "request": {
+        "method": "GET",
+        "header": []
+      },
+      "response": []
+    },
+    {
+      "name": "Get All Categories",
+      "request": {
+        "method": "GET",
+        "header": []
+      },
+      "response": []
+    }
+  ]
+}
