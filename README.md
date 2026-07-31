@@ -1,1 +1,58 @@
 # ecommerce-api
+
+
+E-commerce REST API
+A simple backend REST API for an E-commerce system built with Node.js, Express, and connected to a Neon PostgreSQL database.
+
+Prerequisites
+Node.js installed
+A Neon PostgreSQL database with the required tables (users, categories, products)
+Setup Instructions
+Clone the repository or download the project folder.
+Open the terminal in the project directory.
+Install the dependencies:
+npm install
+Create a .env file in the root directory by copying .env.example:
+bash
+
+cp .env.example .env
+Open the .env file and replace the DATABASE_URL with your actual Neon database connection string.
+Run the Project
+To start the development server (with auto-restart):
+
+bash
+
+npm run dev
+To start the production server:
+
+bash
+
+npm start
+The server will run on http://localhost:3000.
+
+API Endpoints
+Products
+GET /api/products - Get all products
+GET /api/products/:id - Get a single product by ID
+POST /api/products - Create a new product
+PUT /api/products/:id - Update a product
+PATCH /api/products/:id/deactivate - Deactivate a product
+Categories
+GET /api/categories - Get all categories
+GET /api/categories/:id - Get a single category by ID
+POST /api/categories - Create a new category
+PUT /api/categories/:id - Update a category
+Users
+GET /api/users - Get all users
+GET /api/users/:id - Get a single user by ID
+POST /api/users - Create a new user
+PATCH /api/users/:id/status - Activate or deactivate a user
+Testing
+Import the included Ecommerce API.postman_collection.json file into Postman to test all endpoints and view the expected responses.
+
+Technologies Used
+Node.js
+Express.js
+pg (Neon PostgreSQL)
+dotenv
+Postman
